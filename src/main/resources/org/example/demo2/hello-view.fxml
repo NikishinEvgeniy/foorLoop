@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="562.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo2.HelloController">
+   <children>
+      <Label fx:id="textOutput" layoutX="182.0" layoutY="66.0" text="l" />
+      <TextField fx:id="userText" layoutX="57.0" layoutY="187.0" onKeyTyped="#checkingTheUserInput" prefHeight="25.0" prefWidth="364.0" />
+      <Label fx:id="exceptionLabel" layoutX="574.0" layoutY="191.0" />
+      <Label fx:id="resultLabel" layoutX="196.0" layoutY="160.0" />
+   </children>
+</AnchorPane>
